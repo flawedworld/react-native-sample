@@ -5,3 +5,13 @@ updates:
     schedule:
       interval: daily
     target-branch: master
+  - package-ecosystem: gradle
+    directory: "/android"
+    schedule:
+      interval: daily
+    target-branch: master
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+    target-branch: master
